@@ -14,7 +14,6 @@ class SeriesController extends Controller
             'lost',
             'Gray\'s Anatomy'
         ];
-
         
         return view('series.index',) ->with('series', $series);
     }
